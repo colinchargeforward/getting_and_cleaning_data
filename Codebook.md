@@ -24,7 +24,6 @@ walking,walkingupstairs,walkingdownstairs,sitting,standing,laying
 
 4. The script also appropriately labels the data set with descriptive variable names: 
 The 10299x66 data frame containing features is merged with 10299x1 data frames containing activity labels and subject IDs.
-
 The result is saved as tidydata.txt, a 10299x68 data frame such that the first column contains subject IDs, the second column activity names, and the last 66 columns are measurements. 
 Names of the attributes are similar to the following:
 tBodyAcc-mean()-X,tBodyAcc-mean()-Y,tBodyAcc-mean()-Z,tBodyAcc-std()-X,tBodyAcc-std()-Y,tBodyAcc-std()-Z
